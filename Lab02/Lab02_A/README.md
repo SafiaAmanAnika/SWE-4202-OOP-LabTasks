@@ -1,18 +1,31 @@
-## Getting Started
+# 📘 Book Information Management System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 1.1 Background
 
-## Folder Structure
+The goal of this project is to create a basic system that manages book-related information using classes, attributes and object methods.
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 1.2 Task Description
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Design and implement a Java program to manage book information.
+- Each book should include the following attributes:
+  - **Title** – Name of the book
+  - **Author** – Writer of the book
+  - **ISBN** – Unique identifier
+  - **Price** – Cost of the book
+  - **Availability** – Whether the book is available or not
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+---
 
-## Dependency Management
+## 1.3 Implementation Steps
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- ✅ Create a `Book` class with:
+  - Attributes for title, author, ISBN, price, and availability
+  - Getter and setter methods
+  - Constructor to initialize the attributes
+
+- ✅ Create a `BookTest` class to:
+  - Instantiate `Book` objects
+  - Display and update information
+  - Test availability status
